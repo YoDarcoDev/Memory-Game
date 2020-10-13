@@ -43,7 +43,8 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-backface-visibility: hidden;        /* Qd elles vont tourner on ne veut pas voir leur face arrière */
+    -webkit-backface-visibility: hidden;     /* Qd elles vont tourner on ne veut pas voir leur face arrière */
+    backface-visibility: hidden;
 }
 
 
